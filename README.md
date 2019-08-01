@@ -1,2 +1,0 @@
-# Squares
-Squares Game
