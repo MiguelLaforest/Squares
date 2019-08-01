@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Squares</title>
+  <link rel="stylesheet" href="./styles/main.scss">
+</head>
+
+<body>
+  <div id="js-nav"></div>
+  <div id="players"></div>
+  <div class="container">
+
+    <div id="current-player"></div>
+
+    <div id="board"></div>
+
+    <button id="reset">Reset</button>
+  </div>
+
+  <div id="scoreboard">
+    <div class="container">
+      <span id="winner"></span>
+      <div class="scores">
+        <div class="names"></div>
+        <div class="score"></div>
+      </div>
+      <button id="restart">Play Again!</button>
+    </div>
+  </div>
+
+  <!-- SETTINGS -->
+  <div id="control-panel">
+    <div class="players-control">
+      <button id="player-">-</button>
+      <span class="controls-label">Players</span>
+      <button id="player+">+</button>
+    </div>
+
+    <div class="size-control">
+      <button id="size-">-</button>
+      <span class="controls-label">Grid Size</span>
+      <button id="size+">+</button>
+    </div>
+  </div>
+  <script src="./index.ts"></script>
+</body>
+
+</html>
